@@ -1,0 +1,32 @@
+.nav {
+    text-align: center;
+    background-color: tomato;
+    font-size: 1.8vw;
+  }
+  
+  
+  
+
+.nav ul{
+    margin: 0px;
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+  
+  .nav ul li{
+    
+    list-style: none;
+    margin-inline: 2%;
+  }
+  
+
+.nav ul li span{
+    color:blue;
+}
+.nav ul li {
+    color: white;
+}
+.nav h3{
+  justify-content: right;
+  /* margin-right:; */
+}

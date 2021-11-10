@@ -1,0 +1,28 @@
+
+.title_content  {
+
+   display: flex;
+   margin-top: 5%;
+   justify-content: space-around;
+   min-height: 40vw;
+   /* position: absolute;
+   right: 15%; */
+}
+
+.title_content  .imagebox{
+   width: 50%;
+}
+.title_content  .imagebox h1{
+   font-size: 2.8vw;
+}
+.title_content  .imagebox p{
+   font-size: 2vw;
+}
+.title_content  .imagebox .img1,.img2,.img3{
+   width:40vw;
+   height: 18vw; 
+
+}
+.title_content div{
+   font-size:2vw;
+}
