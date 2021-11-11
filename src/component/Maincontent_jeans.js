@@ -1,5 +1,6 @@
 // import Home from './Home';
 import Card from './Card';
+
 import ReactDOM from 'react-dom';
 import jeans1 from '../assets/jeans1.jpg';
 import jeans2 from '../assets/jeans2.jpg';
@@ -18,8 +19,9 @@ const arr=[
         id:1,
         product_name:"kurti",
         price:'$250',
+
         // link:"../assets/kurti1.jpg"
-        image: <img src={jeans1}/>
+        image: <img className="img" src={jeans1}/>
 
 
     },

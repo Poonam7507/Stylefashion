@@ -5,9 +5,10 @@ export default function Card({image,product_name,price}) {
         <>
         <div className="cards">
         <div className="card">
-            {image}
-            <h3>{product_name}</h3>
+            {image }
+            <h3>{product_name} <i className="fa fa-heart-o" ></i></h3>
             <p>{price}</p>
+
             <h3>Add to Cart</h3>
         </div>
       
@@ -15,3 +16,4 @@ export default function Card({image,product_name,price}) {
         </>
     )
 }
+

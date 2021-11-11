@@ -14,19 +14,19 @@ import Footer from './Footer';
 export default function Home() {
     return (
         <div className="homepage">
-        
   <Navbar/>
   <Title/>
   
-  {<h1>Our Best Sellers</h1>}
-  
+ { <h1 className="headname"><span>Our</span> Best Sellers</h1> }
+  <hr/>
+
   {<h2><span>Heart Melter</span> Kurtis</h2>}
 
   <Maincontent_kurti/>
-  {<h2> jeans</h2>}
+  {<h2> Jeans</h2>}
   <Maincontent_jeans/>
   
-  {<h2> Shirts that suits you</h2>}
+  {<h2><span>Shirts </span>that suits you</h2>}
   <Maincontent_shirts/>
 
 

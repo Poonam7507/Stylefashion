@@ -12,6 +12,7 @@ import Navbar from './component/Navbar';
 import About from './component/About';
 import Home from './component/Home';
 import Title from './component/Title';
+// import { BrowserRouter as Route  } from 'react-router-dom';
 // import Cart from './pages/Cart';
 // import Routing from './component/Routing';
 
@@ -37,10 +38,10 @@ function App() {
 
   <Maincontent_kurti/> */}
         {/* <Navbar/> */}
-      
-        {/* <Route path="/" pages={Home} />
-        <Route path="/about" pages={About} />
-   */}
+      {/* <Routes>
+        <Route path="/" components={Home} />
+        <Route path="/about" components={About} />
+  <Routes/> */}
    </div>
    </>
    

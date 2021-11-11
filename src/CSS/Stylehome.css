@@ -1,4 +1,17 @@
 .homepage{
-    background-color:white;
-    /* font-size: 2vw; */
+    background:linear-gradient(to right bottom,wheat,whitesmoke,white,wheat);
 }
+
+.homepage .headname {
+    background:linear-gradient(to bottom right,tomato,white,tomato);
+    font-size: 2.7vw;
+}
+.homepage h2{
+    font-style: oblique;
+    text-shadow: 0.2vw 0.2vw 0.1vw  wheat;
+  font-size: 2.5vw;
+}
+.homepage span{
+    color:blue;
+ }
+

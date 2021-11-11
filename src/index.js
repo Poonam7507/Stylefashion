@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Maincontent from './component/Maincontent_kurti';
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
+
+// import Navbar from './component/Navbar'
+// import {
+//   BrowserRouter as Router
+// } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-  <Router>
+   <Router>
+   {/* <Navbar/> */}
     <App />
   </Router>
   </React.StrictMode>,
