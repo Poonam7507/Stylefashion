@@ -21,7 +21,7 @@ const arr=[
         price:'$250',
 
         // link:"../assets/kurti1.jpg"
-        image: <img className="img" src={jeans1}/>
+        image: <img className="img" src={jeans1} style={{height:"273px"}}/>
 
 
     },
@@ -30,7 +30,7 @@ const arr=[
         product_name:'kurti',
         price:'$250',
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
-        image:<img src={jeans2}/>
+        image:<img src={jeans2} style={{height:"270px"}}/>
 
 
     },
@@ -38,7 +38,7 @@ const arr=[
         id:3,
         product_name:'Kurti',
         price:'$250',
-        image:<img src={jeans3}/>
+        image:<img src={jeans3} style={{height:"275px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
 
 
@@ -47,7 +47,7 @@ const arr=[
         id:4,
         product_name:'Kurti',
         price:'$250',
-        image:<img src={jeans4}/>
+        image:<img src={jeans4}style={{height:"274px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
 
 
@@ -65,7 +65,7 @@ const arr=[
         id:6,
         product_name:'Kurti',
         price:'$250',
-        image:<img src={jeans6}/>
+        image:<img src={jeans6} style={{height:"275px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
 
 
@@ -81,7 +81,7 @@ const arr=[
         id:8,
         product_name:'Kurti',
         price:'$250',
-        image:<img src={jeans8}/>
+        image:<img src={jeans8}style={{height:"276px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
 
 

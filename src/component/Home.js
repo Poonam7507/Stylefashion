@@ -5,7 +5,7 @@ import Maincontent_kurti from './Maincontent_kurti';
 import Maincontent_jeans from './Maincontent_jeans';
 import Maincontent_shirts from './Maincontent_shirt';
 import Footer from './Footer';
-import About from './About';
+// import About from './About';
 
 // import { Link } from 'react-router-dom'
 

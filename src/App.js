@@ -5,6 +5,7 @@ import './CSS/Stylehome.css';
 import './CSS/Styletitle.css';
 import './CSS/card.css';
 import './assets/homescreen.jpg';
+import './CSS/about.css';
 // import Maincontent_kurti from './component/Maincontent_kurti';
 
 
