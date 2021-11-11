@@ -22,7 +22,7 @@
 
 .card i{
     position: absolute;
-    color:black;
+    color:red;
     top:0.6vw;
     right:0.5vw;
 }
@@ -32,4 +32,14 @@
     height: 100%;
     max-height: 300px;
 }
-
+.btn{
+    background-color: rgb(205, 200, 236);
+    margin-bottom: 5%;
+    border-radius: 20%;
+    box-shadow: 0px 5px grey;
+}
+.btn:active{
+    border-radius: 20%;
+    box-shadow: 0px 5px grey;
+    transform: translateY(4px);
+}

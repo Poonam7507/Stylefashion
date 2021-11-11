@@ -1,16 +1,14 @@
 import React from 'react';
 import Navbar from '../component/Navbar';
 
-
-export default function About() {
+export default function Cart() {
     return (
         <>
         <Navbar/>
         <div>
-            <p>this is about</p>
-           
-            
-
+           <div>
+               
+           </div>
         </div>
         </>
     )

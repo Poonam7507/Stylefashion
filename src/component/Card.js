@@ -1,15 +1,21 @@
 import React from 'react'
+import { useState } from 'react';
+import '../CSS/card.css';
 
 export default function Card({image,product_name,price}) {
+    const [isActive,setActive]=useState("false");
+    const Like =()=>{
+        setActive(!isActive);
+    };
     return (
         <>
         <div className="cards">
         <div className="card">
             {image }
-            <h3>{product_name} <i className="fa fa-heart-o" ></i></h3>
+            <h3 >{product_name} <i className={isActive ? "fa fa-heart-o" : "fa fa-heart"} onClick={Like} ></i></h3>
             <p>{price}</p>
 
-            <h3>Add to Cart</h3>
+           <button className="btn" onclick="cartpage">  <h3>Add to Cart</h3></button>
         </div>
       
         </div>

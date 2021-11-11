@@ -9,10 +9,12 @@ import './assets/homescreen.jpg';
 
 
 import Navbar from './component/Navbar';
+import Contact from './component/Contact';
 import About from './component/About';
 import Home from './component/Home';
+import Cart from './component/Cart';
 import Title from './component/Title';
-// import { BrowserRouter as Route  } from 'react-router-dom';
+import { BrowserRouter as Router ,Switch,Route } from 'react-router-dom';
 // import Cart from './pages/Cart';
 // import Routing from './component/Routing';
 
@@ -28,20 +30,16 @@ function App() {
   return (
   <>
   <div className="App">
-        <Home/>
-        {/* <Navbar/>
-  <Title/>
-
-  {<h1>Our Best Sellers</h1>}
-  
-  {<h2><span>Heart Melter</span> Kurtis</h2>}
-
-  <Maincontent_kurti/> */}
-        {/* <Navbar/> */}
-      {/* <Routes>
-        <Route path="/" components={Home} />
-        <Route path="/about" components={About} />
-  <Routes/> */}
+        {/* <Home/> */}
+   
+        <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/cart" component={Cart} />
+        <Route path="/contact" component={Contact} />
+  </Switch>
+  </Router>
    </div>
    </>
    

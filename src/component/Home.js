@@ -1,11 +1,11 @@
-import React from 'react'
-import Navbar from '../component/Navbar'
-import Title from '../component/Title'
+import React from 'react';
+import Navbar from '../component/Navbar';
+import Title from '../component/Title';
 import Maincontent_kurti from './Maincontent_kurti';
 import Maincontent_jeans from './Maincontent_jeans';
 import Maincontent_shirts from './Maincontent_shirt';
-
 import Footer from './Footer';
+import About from './About';
 
 // import { Link } from 'react-router-dom'
 
@@ -16,7 +16,6 @@ export default function Home() {
         <div className="homepage">
   <Navbar/>
   <Title/>
-  
  { <h1 className="headname"><span>Our</span> Best Sellers</h1> }
   <hr/>
 

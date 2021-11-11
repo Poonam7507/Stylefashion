@@ -1,6 +1,7 @@
  import React from 'react';
 //  import { BrowserRouter as Router,Route } from 'react-router-dom';
  import { Link } from 'react-router-dom';
+ import Cart from './Cart';
 
 // export default function Navbar() {
 //     return (
@@ -59,13 +60,22 @@ export default function Navbar() {
                     <h2><span>Style</span>Fashion</h2>
                     </li>
                     <li>
-               <h3> <Link to="/">Categories</Link></h3>
+                    
+               <h3> <Link to="/">
+           <a href="Home.js">   Home </a></Link></h3>
+              </li>
+                    <li>
+
+               <h3> <Link to="/contact">
+           <a href="Contact.js">    Contact </a></Link></h3>
               </li>
                 <li>
-               <h3> <Link to="/cart">Cart</Link></h3>
+               <h3> <Link to="/cart">
+              <a href="Cart.js"> Cart </a> </Link></h3>
               </li>
                 <li>
-               <h3> <Link to="/about">about</Link></h3>
+               <h3> <Link to="/about">
+             <a href="About.js">  about </a></Link></h3>
               </li>
             </ul> 
 

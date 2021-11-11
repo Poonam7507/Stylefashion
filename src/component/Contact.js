@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from '../component/Navbar';
 
-import React from 'react'
 
 export default function Contact() {
     return (
+        <>
+        <Navbar/>
         <div>
             <h1>contact</h1>
         </div>
+        </>
     )
 }
