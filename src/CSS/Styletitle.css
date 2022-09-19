@@ -14,7 +14,16 @@
    width: 70%;
 }
 .title_content .slider{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   margin-left:15%;
    /* background: #000; */
+}
+.title_content .slider img{
+/* position: absolute; */
+top: 0;
+/* margin-left: 5%; */
 }
 .title_content  .imagebox h1{
    text-shadow: 0vw 0.2vw white;

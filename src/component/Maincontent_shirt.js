@@ -15,7 +15,7 @@ const product=()=>{
 const arr=[
     {
         id:1,
-        product_name:"kurti",
+        product_name:"shirt",
         price:'$250',
         // link:"../assets/kurti1.jpg"
         image: <img src={shirt1}style={{height:"275px"}}/>
@@ -24,7 +24,7 @@ const arr=[
     },
     {
         id:2,
-        product_name:'kurti',
+        product_name:'shirt',
         price:'$250',
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
         image:<img src={shirt2}style={{height:"273px"}}/>
@@ -33,7 +33,7 @@ const arr=[
     },
     {
         id:3,
-        product_name:'Kurti',
+        product_name:'shirt',
         price:'$250',
         image:<img src={shirt3} style={{height:"272px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
@@ -42,7 +42,7 @@ const arr=[
     },
     {
         id:4,
-        product_name:'Kurti',
+        product_name:'shirt',
         price:'$250',
         image:<img src={shirt4}style={{height:"275px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
@@ -51,7 +51,7 @@ const arr=[
     },
     {
         id:5,
-        product_name:'Kurti',
+        product_name:'shirt',
         price:'$250',
         image:<img src={shirt5}style={{height:"276px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
@@ -60,7 +60,7 @@ const arr=[
     },
     {
         id:6,
-        product_name:'Kurti',
+        product_name:'shirt',
         price:'$250',
         image:<img src={shirt6}style={{height:"276px"}} />
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
@@ -68,7 +68,7 @@ const arr=[
 
     },{
         id:7,
-        product_name:'Kurti',
+        product_name:'shirt',
         price:'$250',
         image:<img src={shirt7}style={{height:"275px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
@@ -76,7 +76,7 @@ const arr=[
 
     },{
         id:8,
-        product_name:'Kurti',
+        product_name:'shirt',
         price:'$250',
         image:<img src={shirt8}style={{height:"275px"}}/>
         // link:<img src={require('../assets/kurti3.jpg')} alt="kurti"/>
