@@ -9,14 +9,13 @@ function Cartitem({id,image,product_name,price,quantity=0}) {
   return (
     <div className="cartItem">
       {/* <img className="cartItem__image" src={image} alt='item'/> */}
-      {/* {image } */}
-        {/* {image} */}
+     
+       <img src={image} style={{height:"275px"}}/>
       <div>
       </div>
       <div className="cartItem__info">
         <p className="cartItem__title">{product_name}</p>
         <p className="cartItem__price">
-        {image}
           <small>$</small>
           <strong>{price}</strong>
         </p>

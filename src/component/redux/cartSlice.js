@@ -3,7 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const cartSlice=createSlice({
     name:'cart',
     initialState:{
-        cart:[]
+        cart:[],
+       
     },
     reducers:{
         add:(state,action)=>{
@@ -16,8 +17,22 @@ const cartSlice=createSlice({
             else{
                 state.cart.push({...action.payload,quantity:1});
             }
-        }
-,
+                
+          //   const addToitem=state.wishlist.find((props)=>
+          //   props.id===action.payload.id
+          //  );
+          //  if(addToitem){
+          //      addToitem.quantity++;
+          //  }
+          //  else{
+          //      state.wishlist.push({...action.payload,quantity:1});
+          //  }
+            
+        },
+//         addTo:(state,action)=>{
+        
+//         }
+// ,
         incQuantity: (state, action) => {
             const incitem = state.cart.find((props) => props.id === action.payload);
             incitem.quantity++;
@@ -30,11 +45,13 @@ const cartSlice=createSlice({
               decitem.quantity--;
             }
           },
+
           removeItem: (state, action) => {
             const removeItem = state.cart.filter((props) => props.id !== action.payload);
             state.cart = removeItem;
+           
           },
-
+         
     }
 
 })
@@ -42,7 +59,9 @@ const cartSlice=createSlice({
 export const cartReducer = cartSlice.reducer;
 export const {
   add,
+ 
   incQuantity,
   decQuantity,
   removeItem,
+  
 } = cartSlice.actions;

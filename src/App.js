@@ -17,6 +17,8 @@ import Home from './component/Home';
 import Cart from './component/Cart';
 // import Title from './component/Title';
 import {Routes, Route} from 'react-router-dom'
+import Wishlist from './component/Wishlist';
+import { GlobalProvider } from './Context/Globalstate';
 
 
 
@@ -25,15 +27,17 @@ function App() {
   <>
   <div className="App">
         {/* <Home/> */}
-   
+   {/* <GlobalProvider> */}
         <Routes>
       
         <Route  exact path="/"  element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/cart" element={<Cart/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/wishlist" element={<Wishlist/>} />
+        <Route path="/cart" element={<Cart/>} />
   
   </Routes>
+  {/* </GlobalProvider> */}
    </div>
    </>
    

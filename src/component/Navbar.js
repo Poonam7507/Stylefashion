@@ -2,9 +2,11 @@
 //  import { BrowserRouter as Router,Route } from 'react-router-dom';
 //  import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { GlobalProvider } from '../Context/Globalstate';
  import gsap from 'gsap';
  import { useEffect,useRef } from 'react';
 import { useSelector } from 'react-redux';
+
 
 
  
@@ -18,19 +20,21 @@ export default function Navbar() {
   const nav2=useRef(null);
   const nav3=useRef(null);
   const nav4=useRef(null);
+  const nav5=useRef(null);
   useEffect(() => {
     const nav0a=nav0.current;
     const nav1a=nav1.current
     const nav2a=nav2.current
     const nav3a=nav3.current
     const nav4a=nav4.current
+    const nav5a=nav5.current
     gsap.timeline()
 
     .from(nav0a,{
       opacity:0,
       y:"-20"
     })
-    .from([nav1a,nav2a,nav3a,nav4a],{
+    .from([nav1a,nav2a,nav3a,nav4a,nav5a],{
       opacity:0,
       stagger:{
         amount:1
@@ -55,6 +59,7 @@ const getTotalQuantity = () => {
 }
     return (
         <>
+        {/* <GlobalProvider> */}
         <div className="nav"> 
             <ul>
                 <li>
@@ -64,8 +69,7 @@ const getTotalQuantity = () => {
                     
 
 
-               <h3 onClick={()=>navigate('/')} ref={nav1}   > 
-
+               <h3 onClick={()=>navigate('/')} ref={nav1} >
            Home 
            </h3>
               </li>
@@ -80,11 +84,17 @@ const getTotalQuantity = () => {
           Contact
           </h3>
               </li>
-                <li>
-               <h2 className='cartbox' onClick={()=>navigate('/cart')} ref={nav4}>  <i className="fa fa-shopping-cart">
+              <li>
 
-               </i> 
+<h3  onClick={()=>navigate('/wishlist')} ref={nav4}> 
+Wishlist
+</h3>
+</li>
+                <li>
+               <h2 className='cartbox' onClick={()=>navigate('/cart')} ref={nav5}>  <i className="fa fa-shopping-cart">
+
                <p className='count'>{getTotalQuantity() || 0}</p>
+               </i> 
                </h2>
               </li>
 
@@ -92,6 +102,7 @@ const getTotalQuantity = () => {
             </ul> 
 
           </div>
+          {/* </GlobalProvider> */}
           </>
     );
 } 

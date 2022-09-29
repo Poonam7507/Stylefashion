@@ -1,12 +1,19 @@
 .nav {
     text-align: center;
-    background-color: rgb(250, 126, 104,0.85);
+    background-color: rgba(140, 179, 238, 0.85);
     font-size: 1.8vw;
      position: sticky;
+     font-family: "Sofia", sans-serif;
+     /* height: 70px; */
   }
   
   
-  
+   h2{
+    font-style: oblique;
+    text-shadow: 0.2vw 0.2vw 0.1vw  rgb(248, 248, 250);
+  font-size: 2.5vw;
+  margin: 0;
+}
 
 .nav ul{
     margin: 0px;
@@ -15,7 +22,7 @@
   }
   
   .nav ul li{
-    
+   
     list-style: none;
     margin-inline: 2%;
   }
@@ -30,6 +37,7 @@
 }
 .nav h3{
   justify-content: right;
+  margin: 0;
   /* margin-right:; */
 }
 .fa{
@@ -38,7 +46,7 @@
 
 .cartbox .fa{
   position: relative;
-font-size: 3vw;
+font-size: 2.5vw;
 /* color: rgb(201, 201, 17); */
   box-shadow: 0.1vw 0.1vw 0.1vw rgb(142, 135, 135);
 /* border: 2px solid black; */
@@ -52,5 +60,5 @@ font-size: 3vw;
   font-size: 2vw;
   border-radius: 50%;
   padding: 2px;
-  background-color: rgb(234, 194, 194);;
+  background-color: #ffff;
 }

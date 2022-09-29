@@ -9,7 +9,7 @@
 
 
 .card{
-    background:linear-gradient(90deg,tomato,white,tomato);
+    background:linear-gradient(90deg,rgb(128, 148, 240),white,rgb(151, 160, 235));
     position: relative;
     /* padding: 2vw; */
     margin: 4vw;

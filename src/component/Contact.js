@@ -15,8 +15,8 @@ export default function Contact() {
     return (
         <>
         <div>
+        {/* <section id="contactme"  > */}
         <Navbar/>
-        <section id="contactme"  >
     <div class="contactpage">
        
         <div class="page" id="form" >
@@ -44,7 +44,7 @@ export default function Contact() {
         </div>
         
        </div>
-       </section>
+       {/* </section> */}
        </div>
        
     <Footer/>
